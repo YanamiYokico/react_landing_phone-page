@@ -3,7 +3,7 @@ An online shop web application for browsing, filtering, and purchasing Apple pro
 # Live preview
 [DEMO LINK](https://YanamiYokico.github.io/react_phone-catalog/#/)
 # Design reference
-The design of this project is based on a Figma file. You can view the design [here]([www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original](https://www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original)
+The design of this project is based on a Figma file. You can view the design [here](www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original)
 # Technologies used
 - BEM
 - SCSS
