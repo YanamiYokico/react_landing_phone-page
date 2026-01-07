@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { PicturesSlider } from './components/PicturesSlider';
 import style from './HomePage.module.scss';
 import { ProductsSlider } from '../shared/components/ProductsSlider';

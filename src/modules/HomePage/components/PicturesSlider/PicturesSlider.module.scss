@@ -24,9 +24,7 @@
     display: none;
 
     @include on-tablet {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex(row, center, center);
       width: 32px;
       background-color: var(--color-bg);
       border: 1px solid var(--color-gray-icons-placeholders);
@@ -69,7 +67,6 @@
     height: 100%;
     object-fit: contain;
   }
-
 
   &__dots {
     height: 24px;
