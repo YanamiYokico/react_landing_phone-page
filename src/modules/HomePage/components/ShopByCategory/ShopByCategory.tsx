@@ -9,8 +9,8 @@ export const ShopByCategory: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    getProducts().then(fetchedProducts => setProducts(fetchedProducts));
-  }, [products]);
+    getProducts().then(setProducts);
+  }, []);
 
   const { phonesLength, tabletsLength, accessoriesLength } = useMemo(() => {
     const phones = [];
@@ -78,7 +78,7 @@ export const ShopByCategory: React.FC = () => {
           <div className={styles.categories__block}>
             <div className={styles['categories__block-wrapper']}>
               <img
-                src="./img/category-accessories.png"
+                src="./img/category-accessories.webp"
                 alt="Category phones"
                 className={styles['categories__block-wrapper-img']}
               />

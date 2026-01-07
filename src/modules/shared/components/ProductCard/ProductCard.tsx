@@ -93,7 +93,7 @@ export const ProductCard: FC<Props> = memo(({ product, displayType }) => {
             handleAddToCart();
           }}
         >
-          {isInCart ? `Added to cart` : 'Add to cart'}
+          {isInCart ? `Added` : 'Add to cart'}
         </button>
         <button
           className={classNames(
